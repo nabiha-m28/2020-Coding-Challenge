@@ -52,7 +52,7 @@ def increase_score():
             team["score"] += 1
     
     for i in range(len(scoreboard)):
-        for j in range(0, len(scoreboard) - 1):
+        for j in range(0, len(scoreboard) - i - 1):
             if scoreboard[j]['score] < scoreboard[j + 1]['score']:
             scoreboard[j], scoreboard[j + 1] = scoreboard[j + 1];
 
