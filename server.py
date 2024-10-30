@@ -6,7 +6,7 @@ app = Flask(__name__)
 scoreboard = [
     {
     "id": 1,
-    "name": "B Bruins",
+    "name": "Boston Bruins",
     "score": 7
     },
 
